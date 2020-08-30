@@ -19,7 +19,7 @@ We’re going to design an API using Node.js and MongoDB for the doctors of a Ho
 
 
 ## What's in the folders?  
-1) Entry point : app.js. 
+1) Entry point : index.js
 2) `config` : Contains configuration files of Mongoose and Passport Authentication Strategies. 
 3) `Controllers` : The controllers for various API's or controller like Doctor or Patient  or Report controller.
 4) `Models` : Mongoose Models for the Doctors, Patients and reports!
