@@ -8,7 +8,8 @@ const pSchema = new mongoose.Schema({
         unique: true
     },
     name: {
-        type: String
+        type: String,
+        required: true
     },
     report:[{
         type: mongoose.Schema.Types.ObjectId,

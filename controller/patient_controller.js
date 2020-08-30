@@ -37,7 +37,7 @@ module.exports.create_report = async function(req, res){
             })
         }else{
             let report = await Report.create({
-                doctorname : req.user.username,
+                doctorname : req.user.name,
                 status: req.body.status,
                 patientname: patient.name
             });
