@@ -12,7 +12,7 @@ router.post('/register', passport.authenticate('jwt',{session: false}),patientco
 // route for create report by the doctor for the registered patient
 router.post('/:id/create_report',passport.authenticate('jwt',{session: false}),patientcontroller.create_report);
 // route for show the all report for patient
-router.post('/:id/all_report',passport.authenticate('jwt',{session: false}),patientcontroller.allreports);
+router.post('/:id/all_reports',passport.authenticate('jwt',{session: false}),patientcontroller.allreports);
 
 
 module.exports = router;
